@@ -40,8 +40,9 @@ min-height: 12vh;
 
 .navbar-brand{
     font-family: 'Pacifico', cursive;
-    font-size: 2.5rem;
+    font-size: 30px;
     color: orange;
+    position: relative;
 }
 
 .navbar-toggler{
@@ -91,7 +92,7 @@ min-height: 12vh;
 }
 
 .navbar-nav .btn{
-background-color: grey;
+background-color: orange;
 color: white;
 border-radius: 0;
 padding: 1rem 1.5rem;
