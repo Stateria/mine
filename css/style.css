@@ -41,7 +41,7 @@ min-height: 12vh;
 }
 
 .navbar-brand{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     font-size: 30px;
     color: orange;
     position: relative;
