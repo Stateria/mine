@@ -16,11 +16,11 @@ html, body{
 
 a{
     text-decoration: none;
-    color:grey;
+    color:black;
 }
 
 a:hover{
-    color: red;
+    color: yellow;
 }
 
 ul{
@@ -28,7 +28,7 @@ ul{
 }
 
 .navbar{
-background: white;
+background: #ebcc90;
 padding: 3rem 2rem;
 height: 0rem;
 min-height: 12vh;
@@ -43,12 +43,12 @@ min-height: 12vh;
 .navbar-brand{
     font-family: 'Poppins';
     font-size: 30px;
-    color: orange;
+    color: #b68911;
     position: relative;
 }
 
 .navbar-toggler{
-    background: red;
+    background: yellow;
     border: none;
     padding: 10px 6px;
     outline: none;
@@ -81,12 +81,12 @@ min-height: 12vh;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover{
-   border-top: 4px solid red;
+   border-top: 4px solid yellow;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:active{
-    border-top: 4px solid red;
-    color:red;
+    border-top: 4px solid yellow;
+    color:yellow;
  }
 
 .navbar-nav button{
@@ -94,8 +94,8 @@ min-height: 12vh;
 }
 
 .navbar-nav .btn{
-background-color: orange;
-color: white;
+background-color: #b68911;
+color: black;
 border-radius: 0;
 padding: 1rem 1.5rem;
 font-size: 1.2rem;
@@ -103,5 +103,5 @@ margin-top: 1px;
 }
 
 .navbar-nav .btn:hover{
-    background-color:red;
+    background-color:yellow;
 }
