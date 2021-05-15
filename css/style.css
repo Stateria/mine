@@ -48,7 +48,7 @@ min-height: 12vh;
 }
 
 .navbar-toggler{
-    background: white;
+    background: black;
     border: none;
     padding: 10px 6px;
     outline: none;
@@ -67,16 +67,19 @@ min-height: 12vh;
     margin-top: 4px;
     width: 18px;
     margin-left: 4px;
+    background: white;
 }
 
 .navbar-toggler span + span + span{
     width: 10px;
     margin-left: 4px;
+    background: white;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link{
     padding: 2rem 1.2rem;
     font-size: 1.4rem;
+    background: #ebcc90;
     position: relative;
 }
 
