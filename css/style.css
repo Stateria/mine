@@ -109,9 +109,11 @@ margin-top: 1px;
     background-color:white;
 }
 
-.mb-0{
+.mx-auto-blockquote{
     font-family: 'Belleza', sans-serif;
     color: #b68911;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
 }
+

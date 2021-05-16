@@ -1,89 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>AFK Apartelle</title>
-<!-- Bootstrap LINKS -->
-<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AFK Apartelle</title>
+  <!-- Bootstrap LINKS -->
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 
-<script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-<script src="./js/bootstrap.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
 
-<!-- Font Awesome -->
-<script src="https://kit.fontawesome.com/2ddbad06a5.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/2ddbad06a5.js" crossorigin="anonymous"></script>
 
-<!-- External CSS -->
+  <!-- External CSS -->
 
-<link href= "./css/style.css" rel="stylesheet" type="text/css">
+  <link href="./css/style.css" rel="stylesheet" type="text/css">
 
 </head>
+
 <body>
 
-    <header class="header">
+  <header class="header">
     <nav class="navbar navbar-expand-lg header-nav fixed-top">
-        <a class="navbar-brand" href="#">
-            
+      <a class="navbar-brand" href="#">
+
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Bookings <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Services
             </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      
-        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Bookings <span class="sr-only">(current)</span></a>
-              </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Services
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Rooms</a>
-                <a class="dropdown-item" href="#">Facilities</a>
-                <a class="dropdown-item" href="#">Events</a>
-              </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-              </li>
-          </ul>
-         
-         
-        </div>
-      </nav>
-    </header>
-<br>
-<br>
-    <div class="text-center">
-        <img src="./images/LOGO.png" class="rounded" alt="LOGO">
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Rooms</a>
+              <a class="dropdown-item" href="#">Facilities</a>
+              <a class="dropdown-item" href="#">Events</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
 
-        <blockquote class="blockquote text-center">
-            <p class="mb-0">Need a staycation? AFK Hotel in the Philippines offers you  the perfect sanctuary to reset and recharge.
-                Enjoy swimming in our famous infinity pool. We are located along the beautiful City of Taguig, Metro Manila.
-            </p>
-            
-          </blockquote>
+
       </div>
+    </nav>
+  </header>
+  <br>
+  <br>
+  
+  
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-">
+        <img src="./images/LOGO.png" class="rounded mx-auto d-block" alt="LOGO">
+        <p class="h1 mx-auto-blockquote">Need a staycation? AFK Hotel in the Philippines offers you the perfect
+          sanctuary to reset and recharge.
+          Enjoy swimming in our famous infinity pool. We are located along the beautiful City of Taguig, Metro Manila.
+        </p>
+      </div>
+    </div>
+    <div class="row pb-20">
+      <div class="col-md-">
+        <div class="btn-group-vertical">
+          <button type="button" class="btn btn-outline-dark float-left"><img src="./images/facebook.png" id="soclogo"
+              class="rounded" alt="facebook logo" width="90px" height="90px"></button>
+          <button type="button" class="btn btn-outline-dark float-left"><img src="./images/twitter.png" id="soclogo"
+              class="rounded" alt="twitter logo" width="90px" height="90px"></button>
+          <button type="button" class="btn btn-outline-dark float-left"><img src="./images/email.png" id="soclogo"
+              class="rounded" alt="email logo" width="90px" height="90px"></button>
+          <button type="button" class="btn btn-outline-dark float-left"><img src="./images/instagram.png" id="soclogo"
+              class="rounded" alt="instagram logo" width="90px" height="90px"></button>
+        </div>
+      </div>
+    </div>
+
+  </div>
 
 
+</body>
 
-
-
-
-    </body>
-
-    </html>
+</html>
