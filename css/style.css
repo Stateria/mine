@@ -15,6 +15,12 @@ html, body{
     left: 0;
 }
 
+.rooms-bg{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 a{
     text-decoration: none;
     color:black;
@@ -223,4 +229,26 @@ max-width: 100%
 .carousel-desc{
     font-size: 20px;
     font-family: 'Belleza', sans-serif;
+}
+
+.REGULAR{
+    font-family: 'Belleza', sans-serif;
+    background:#b68911;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.carousel-text-rooms{
+    font-size: 50px;
+    font-family: 'Belleza', sans-serif;
+    color: black;
+
+}
+
+.carousel-desc-rooms{
+    font-size: 20px;
+    font-family: 'Belleza', sans-serif;
+    color: black;
 }
